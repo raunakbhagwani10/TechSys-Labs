@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--FONT AWESOME ICONS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    
+    <!--GOOGLE FONTSS-->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+    
+
+    <title>TechSys Labs</title>
+    
+    <style>
+		.navbar-light
+		{
+			background-color: #0071c1 !important;
+			color: white;
+		}
+		.navbar-light li a
+		{
+			font-size: 16px;
+		}
+		.navbar-light ul li a
+		{
+			color: white !important;
+			font-size: 22px;
+			font-family: 'Work Sans', sans-serif;
+			
+		}
+		.cool-link {
+			display: inline-block;
+			color: #fff;
+			text-decoration: none;
+		}
+		.cool-link::after {
+			content: '';
+			display: block;
+			width: 0;
+			height: 2px;
+			background: #fff;
+			transition: width .3s;
+		}
+		.cool-link:hover::after {
+			width: 100%;
+			transition: width .3s;
+		}
+		.overlay {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: #fff;
+			opacity: 0.3;
+			transition: all 0.2s ease-out;
+		}
+		#about-us h1,h4
+		{
+			color:#444444;
+			font-family: 'Raleway', sans-serif;
+			font-style: bold;
+			font-weight: 600;
+		}
+		#about-us p
+		{
+			color:#444444;
+			font-family: 'Raleway', sans-serif;
+			text-align: justify;
+			font-size: 20px;
+			
+		}
+		#about-us
+		{
+			padding-top: 100px;
+			background-color: #F9F9F9;
+			
+		}
+		#services h4,h1
+		{
+			color:#444444;
+			font-family: 'Raleway', sans-serif;
+			font-style: bold;
+			font-weight: 600;
+			padding-top: 20px;
+		}
+		#services p
+		{
+			color:#444444;
+			font-size: 14px;
+		}
+		.hr_line
+		{
+			background-color: black;
+			height: 1px;
+			width: 15%;
+		}
+		.hr_line_2
+		{
+			background-color: black;
+			height: 1px;
+			width: 8%;
+		}
+		.sw_column p
+		{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 14px;
+			color:#333333;
+		}
+		.sw_column
+		{
+			background-color:white;
+			padding:10px;
+			transition:color 0.5s;
+			
+		}
+		.sw_column:hover
+		{
+			color:#3EC1D5;
+		}
+		img
+		{
+			max-width: 100%;
+			height: auto;
+		}
+		#empower-business input
+		{
+			background-color: transparent;
+			width: 50%;
+		}
+		#empower-business .jumbotron
+		{
+			background-color: #3EC1D5;
+			border-radius:0;
+		}
+		#empower-business
+		{
+			padding-bottom: 100px;
+		}
+		#empower-business h1
+		{
+			color: white;
+		}
+		.btn-primary
+		{
+			background-color: white;
+			color:#3EC1D5;
+			border:2px solid white;
+			font-size:16px;
+			padding: 10px 30px;
+			border-radius: 30px;
+			font-family: 'Work Sans', sans-serif;
+			transition: border 0.5s, color 0.5s ,background-color 0.5s;
+		}
+		.btn-primary:hover
+		{
+			border:2px solid white;
+			color: white;
+			background-color: #3EC1D5;
+		}
+		#footer
+		{
+			background-color: #0D78C4;
+			padding-top:50px;
+			padding-bottom: 100px;
+		}
+		#footer p
+		{
+			color: white;
+			text-align: justify;
+			padding-top: 40px;
+			font-family: 'Open Sans', sans-serif;
+		}
+		#below_footer
+		{
+			background-color: #0071C1;
+		}
+	</style>
+    
+  </head>
+  <body>
+    
+
+   	<!--NAVBAR STARTS-->
+   	
+   		<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+  <a class="navbar-brand" href="#" style="padding-left: 70px;"><img src="images/logo.png" alt="" width="248" height="62"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto"><!--FOR LEFT ALIGN PUT "mr-auto"-->
+      <li class="nav-item active">
+        <a class="nav-link cool-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link cool-link" href="#about-us">About Us</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link cool-link" href="#">Tools</a>
+      </li>
+       <li class="nav-item" style="padding-right: 50px;">
+        <a class="nav-link cool-link" href="#services">Services</a>
+      </li>
+    </ul>
+  </div>
+</nav><!--NAVBAR ENDS-->
+
+   	<!--CAROUSEL SLIDERS START-->
+   
+   		<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1500">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/carousel_img_1.jpg" alt="First slide">
+       <div class="overlay"></div>
+    	<div class="carousel-caption">
+			<h1>HELLO CAPTION 1</h1>
+     	</div>
+      
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/carousel_img_4.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/carousel_img_3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><!--CAROUSEL SLIDERS ENDS-->
+   	
+   	
+   	<!--ABOUT US STARTS-->
+   	<section id="about-us" style="padding-bottom: 100px;">
+   		<div class="container">
+   			<div class="row">
+   				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+   					<h1>About TechSys Labs</h1>
+   					<hr class="hr_line"></hr>
+   				</div>
+   			</div>
+   			<div class="row"  style="padding-top: 70px;">
+   				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+   					<img src="images/aboutus_image.jpg" class="img-fluid" alt="" width="500" height="200.4">
+   				</div>
+   				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+   					<h4>Our Approach</h4>
+   					<p>We follow Scrum methodology for all our operations. We provide transparency towards clients for all our work and execution. We believe on continuous feedback and improvement improves the quality of services.</p>
+   				</div>
+   			</div>
+   			<div class="row" style="padding-top: 70px;">
+   				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+   					<h4>Our Story</h4>
+   					<p>We started our career as IT professional in top IT company in Bangalore. After 10+ years of our journey in IT Industries, we realize a big IT company charge huge budget for their services which are not affordable for IT startup companies. We, a group of IT professional did an extensive research to reduce the cost of the software and comes with a solution to provide software using Open source technologies.</p>
+   				</div>
+   				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+   					<img src="images/aboutus_image_2.jpg" class="img-fluid" alt="" width="631" height="253">
+   				</div>
+   			</div>
+   		</div>
+   	</section><!--ABOUT US ENDS-->
+   	
+   	<!--SERVICES SECTION STARTS-->
+   		<section id="services" style="padding-top: 70px;padding-bottom: 100px;">
+   			<div class="row" >
+   				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+   					<h1>Our Services</h1>
+   					<hr class="hr_line_2"></hr>
+   				</div>
+   			</div>
+   			<div class="container">
+				<div class="row text-center" style="padding-top: 70px;">
+						<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 sw_column">
+							<i class="fa fa-code fa-7x"></i>
+							<h4>Software Development</h4>
+							<p>will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.</p>
+						</div>
+						<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 sw_column">
+							<i class="fas fa-camera-retro fa-7x"></i>
+							<h4>Creative Designing</h4>
+							<p>will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.</p>
+						</div>
+						<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 sw_column">
+							<i class="far fa-chart-bar fa-7x"></i>
+							<h4>SEO Experts</h4>
+							<p>will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.</p>
+						</div>
+				</div>
+  			<div class="row text-center" style="padding-top: 70px;">
+						<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 sw_column">
+							<i class="fas fa-briefcase fa-7x"></i>
+							<h4>Business Transformation</h4>
+							<p>will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.</p>
+						</div>
+						<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 sw_column">
+							<i class="fas fa-headset fa-7x"></i>
+							<h4>24/7 Support</h4>
+							<p>will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.</p>
+						</div>
+						<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 sw_column">
+							<i class="far fa-chart-bar fa-7x"></i>
+							<h4>SEO Experts</h4>
+							<p>will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.</p>
+						</div>
+				</div>
+   			</div>
+   		</section>
+   	<!--SERVICES SECTION ENDS-->
+   	
+   
+   <!--EMPOWER BUSINESS SECTION STARTS-->
+   
+   	<section id="empower-business">
+   		<div class="row">
+   				<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+   					<div class="jumbotron">
+   						<h1 class="text-center">
+   							Want To Empower Your Business ?
+   						</h1>
+   						<div class="text-center" style="padding-top: 20px;">
+							<button type="button" class="btn btn-primary"><h3>CONTACT US</h3></button>
+   						</div>
+   					</div>
+   				</div>
+   		</div>
+   	</section>
+   
+   <!--EMPOWER BUSINESS SECTION ENDS-->
+   
+   
+   <!--FOOTER STARTS-->
+   		<section id="footer">
+   			<div class="container">
+   				<div class="row">
+   					<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+   						<img src="images/logo.png" class="img-fluid" alt="" width="248" height="62">
+   						<p>Techsys is a world leading IT services and Digital innovation company. Techsys has come a long way from being a start-up to be coming to a 100% digital transformation-Oriented Offshore and Onsite Software development centers. Our experience and expertise enrich along the way to give over satisfaction and consistently delivering quality services.</p>
+   					</div>
+   					<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+   						
+   					</div>
+   				</div>
+   			</div>
+   		</section>
+   		
+   		<section id="below_footer">
+   			<div class="row text-center">
+   				<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+   					<p style="padding-top: 20px;color: white">&copy; Techsyslabs 2018</p>
+   				</div>
+   			</div>
+   		</section>
+   		
+   <!--FOOTER ENDS-->
+   
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
